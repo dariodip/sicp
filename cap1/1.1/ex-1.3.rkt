@@ -7,5 +7,5 @@
 
 (define (sum-of-greatest x y z)
   (+
-   (if (> x y) (square x) (square y))
-   (if (> y z) (square y) (square z))))
+   (square (if (> x y) x y))
+   (square (if (> y z) y z))))
