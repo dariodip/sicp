@@ -30,7 +30,7 @@ We can create procedures that accepts procedures as arguments or return procedur
 
 ## Procedures as Arguments
 
-Check out [here](./hop.rkt).
+Check out [this](./hop.rkt).
 
 ## Constructing Procedures using `lambda`
 
@@ -84,3 +84,17 @@ We can see from this equivalence that the scope of a variable specified by a `le
 - The variables' values are computed outside the `let`.
 
 We prefer using `let` to bind variables and `define` to define procedures.
+
+## Procedures as General Methods
+
+Using **Higher-Order Procedures** we can create procedures that can be used to express general methods of computation, independent of the particular functions involved.
+
+#### Finding roots of equations by the half-interval method
+
+Check out [this](./roots.rkt).
+
+#### Finding fixed points of functions
+
+Check out [this](./fixed_points.rkt).
+
+> The approach of averaging successive approximation to a solution is called **average dumping**.

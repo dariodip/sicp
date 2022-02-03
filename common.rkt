@@ -10,3 +10,6 @@
 
 (define (>= x y)
   (not (< x y)))
+
+(define (average x y) (/ (+ x y) 2))
+
