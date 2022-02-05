@@ -98,3 +98,22 @@ Check out [this](./roots.rkt).
 Check out [this](./fixed_points.rkt).
 
 > The approach of averaging successive approximation to a solution is called **average dumping**.
+
+## Procesures as Returned Values
+
+We can achieve more expressive power by creating procedures whose returned values are themselves procedures.
+
+> As programmers, we should be alert to opportunities to identify the underlying abstractions in our programs and to build upon them and generalize them to creare more powerful abstractions. This is not to say that one should always write programs in the most abstract way possible.
+
+The significance of *Higher-Order Procedure* is that they enable us to represent these abstractions explicitly as elements in our programming language, so that they can be handled just like other computational elements.
+
+Programming languages impose restriction on the ways in which computational elements can be manipulated. 
+Elements with the fewest restrictions are said to have **first-class** status and their priviledges are:
+1. They may be named by variabvles;
+2. They may be passed as arguments to procedures;
+3. They may be returnes as the results of procedures;
+4. They may be included in data structures.
+
+Lisp awards procedures full fist-class status, even though the loss of performance derived by this decision. 
+
+The major implementation cost of first-class procedures is that allowing procedures to be returnes as values requires reserving storage for a procedure's free variables even while the procedure is not executing.
