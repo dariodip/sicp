@@ -21,7 +21,7 @@ To make the development process more comfortable, since I use VSC as the main ed
 
 Follow the instruction here https://code.visualstudio.com/docs/remote/containers to run it on your VSC.
 
-## Other SICP solutions online
+## SICP solutions online
 - http://community.schemewiki.org/?SICP-Solutions
 - https://github.com/Pluies/SICP
 - https://github.com/dariodip/sicp
