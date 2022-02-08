@@ -1,28 +1,5 @@
 # 1.2 Procedures and the Processes they generate
 
-## Exercieses
-
-- [x] 1.9
-- [x] 1.10
-- [x] 1.11
-- [x] 1.12
-- [x] 1.13
-- [x] 1.14
-- [x] 1.15
-- [x] 1.16
-- [x] 1.17
-- [x] 1.18
-- [x] 1.19
-- [x] 1.20
-- [x] 1.21
-- [x] 1.22
-- [ ] 1.23
-- [ ] 1.24
-- [ ] 1.25
-- [ ] 1.26
-- [ ] 1.27
-- [ ] 1.28
-
 A procedure is a pattern for the *local evolution* of the computational process that specifies how each stage of the process is built upon previous stage. We would like to be able to make statements about the *global* behavior of a process whose local evolution has been specified by a procedure.
 
 ## Linear Recursion and Iteration
